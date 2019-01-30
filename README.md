@@ -10,7 +10,7 @@ public class FreeCRM {
 
 	WebDriver driver; //creating object for webDriver interface so that the abstract methods of webDriver can be invoked
 	public void invokeBrowserandURL(){
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Rajesh\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\*****\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		System.out.println("browser is opened");
 		driver.get("https://www.freecrm.com");
